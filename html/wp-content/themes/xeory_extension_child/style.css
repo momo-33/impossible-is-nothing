@@ -5,18 +5,25 @@ Template: xeory_extension
 */
 
 /* トップページ：ファーストビュー */
+/* ああああああああ */
 
 body.home #main_visual {
-    background-image:url(http://localhost:10000/wp-content/uploads/2020/05/walt-disney-world2-4.jpg) !important;
+    background-image:url(http://momotomo.club/wp-content/uploads/2020/05/1-scaled-e1590116490607.jpg) !important;
     width:100%;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-color:#000 !important;
     }
 
+body.home #main_visual h2 {
+  font-size: 60px;
+  line-height: 0px;
+  margin-bottom: 50px;
+}
+
 body.home #main_visual p {
-    font-size:15px;
-    padding:30px 20px;
+    font-size:23px;
+    padding:0px 29px;
     }
 
 @media (min-width: 768px) {
@@ -42,11 +49,12 @@ body.home #main_visual p br {
 /* トップページ：ファーストビュー：明るい画像パターン */
 
 body.home #main_visual {
-    background-image:url(http://localhost:10000/wp-content/uploads/2020/05/walt-disney-world2-4.jpg) !important;
+    background-image:url(http://momotomo.club/wp-content/uploads/2020/05/1-scaled-e1590116490607.jpg) !important;
     width:100%;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-color:#fff !important;
+    background-size: cover;
     }
 
 body.home #main_visual h2 {
@@ -56,7 +64,7 @@ body.home #main_visual h2 {
 body.home #main_visual p {
     font-size:15px;
     color:#FFFFFF;
-    padding:0px 50px;
+    padding:0px 35px;
 
     }
 
@@ -165,7 +173,7 @@ body.home #front-service .front-service-inner h3 {
     }
 
 .c_btn .btn {
-    background-color:#FF00FF !important;
+    background-color:#800000 !important;
     color:#fff !important;
     }
 
@@ -229,7 +237,7 @@ body.home #front-contact textarea {
     }
 
 body.home #front-contact input.wpcf7-submit {
-    background-color:#FF00FF !important;
+    background-color:#800000 !important;
     border:none;
     }
 
@@ -299,6 +307,7 @@ body.home #front-contact input.wpcf7-submit {
 
 #content {
     background-color:#fafafa !important;
+    padding: 0px 0px;
     }
 
 /* 投稿ページのカテゴリー色を変更 */
@@ -330,8 +339,8 @@ body.home #front-contact input.wpcf7-submit {
     }
 
 #main article .post-cta-btn .button {
-    background-color:#FF00FF;
-    color:#fff !important;
+    background-color:#fff;
+    color:#58656e !important;
     }
 
 /* 投稿ページのコメント欄を変更 */
@@ -371,3 +380,7 @@ li.comments {
 #content .pagination .current {
     background-color: #FF00FF;
     }
+
+.wrap p {
+  color: red !important;
+}
